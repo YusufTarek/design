@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Yusuf Tarek</title>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- CSS style sheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- "Y" icon -->
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/54fbe52146.js" crossorigin="anonymous"></script>
+
+  <!-- jQuery script (related to Bootstrap) -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Nav Bar  -->
+
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <a class="navbar-brand" href="">Yusuf Tarek</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- navbar lilnks -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="title" id="title">
+    <!-- container fluid: takes width of 100% -->
+    <div class="container-fluid">
+      <!-- First page: (title and 2 buttons on the left, and an image on the right (50% each)) -->
+      <div class="row">
+        <div class="col-lg-6">
+          <div>
+            <h1>Design your own web site.</h1>
+            <a href="#pricing">
+            <button type="button" class="btn btn-dark btn-lg download">
+            <i class="fas fa-comments"></i> Contact me</button></a>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div>
+            <img class="title-image" src="images/web-design.png" alt="web-design">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Features -->
+
+  <div class="features" id="features">
+    <div class="row">
+
+      <div class="col col-lg-4 col-md-12">
+        <i class="fas fa-check-circle fa-4x"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your child could use it.</p>
+      </div>
+
+      <div class="col col-lg-4 col-md-12">
+        <i class="fas fa-bullseye fa-4x"></i>
+        <h3>Great designs.</h3>
+        <p>We have all the designs, the greatest ones.</p>
+
+      </div>
+
+      <div class="col col-lg-4 col-md-12">
+        <i class="fas fa-heart fa-4x"></i>
+        <h3>Guaranteed to work.</h3>
+        <p>Find the perfect design of your company or your money back.</p>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Testimonials -->
+
+  <!-- Carousel Testimonials -->
+  <div class="carousel slide" id="testimonials" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#testimonials" data-slide-to="0" class="active"></li>
+      <li data-target="#testimonials" data-slide-to="1"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h2>I no longer have to be ashamed of my web site. I have found the best one.</h2>
+        <!-- <img src="images/dog-img.jpg" alt="dog-profile"> -->
+        <em>Business Insider, New York</em>
+      </div>
+
+      <div class="carousel-item">
+        <h2>With Yusuf's help, I have found the best web design of my company. I think.</h2>
+        <!-- <img src="images/lady-img.jpg" alt="lady-profile"> -->
+        <em>Tech Insider, california</em>
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#testimonials" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+
+    <a class="carousel-control-next" href="#testimonials" role="button" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+
+  <!-- Press -->
+
+  <div class="press" id="press">
+    <a href=""><img src="images/techcrunch.png" alt="tc-logo"></a>
+    <a href=""><img src="images/bizinsider.png" alt="biz-insider-logo"></a>
+    <a href=""><img src="images/tnw.png" alt="tnw-logo"></a>
+  </div>
+
+
+
+  <!-- Pricing Cards -->
+
+  <div class="pricing" id="pricing">
+
+
+    <h2 class="pricing-title">A Plan for Every Company's Needs</h2>
+    <p>Various and affordable price plans for your company.</p>
+
+
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Simple</h3>
+          </div>
+          <div class="card-body">
+            <h2>$50</h2>
+            <p>One page</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-block btn-dark btn-lg" type="button">
+            <i class="fas fa-comments"></i> Contact me</button>
+          </div> <!-- end "card-body" -->
+        </div> <!-- end "card" -->
+      </div> <!-- end "col-lg-4 col-md-6" -->
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Intermediate</h3>
+          </div>
+          <div class="card-body">
+            <h2>$100</h2>
+            <p>One page with external links</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-block btn-dark btn-lg" type="button">
+            <i class="fas fa-comments"></i> Contact me</button>
+          </div> <!-- end "card-body" -->
+        </div> <!-- end "card" -->
+      </div> <!-- end "col-lg-4 col-md-6" -->
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Advanced</h3>
+          </div>
+          <div class="card-body">
+            <h2>$150</h2>
+            <!-- <p>Pirority Listing</p> -->
+            <p>Multiple pages</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-block btn-dark btn-lg" type="button">
+            <i class="fas fa-comments"></i> Contact me</button>
+          </div> <!-- end "card-body" -->
+        </div> <!-- end "card" -->
+      </div> <!-- end "col-lg-4" -->
+
+    </div> <!-- end "row" -->
+
+
+
+
+  </div>
+
+
+  <!-- Call to Action -->
+
+  <div class="cta" id="cta">
+
+    <h3>Find the True Design of Your Company's Web site Today.</h3>
+    <button class="btn btn-dark btn-lg" type="button">
+    <i class="fas fa-comments"></i> Contact me</button>
+  </div>
+
+
+  <!-- Footer -->
+
+  <footer class="footer" id="footer">
+
+    <a href=""><i class="fab fa-facebook-f"></i></a>
+    <a href=""><i class="fab fa-twitter"></i></a>
+    <a href=""><i class="fab fa-instagram"></i></a>
+    <a href=""><i class="fas fa-envelope"></i></a>
+
+    <p>© Copyright 2020 Yusuf Tarek</p>
+
+  </footer>
+
+
+</body>
+
+</html>
